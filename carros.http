@@ -1,0 +1,17 @@
+POST localhost:3000/carros
+Content-Type: application/json
+
+{
+  "placa": "BBB6666",
+  "renavam": 12345,
+  "marca": "Fiat",
+  "modelo": "Freemont"
+}
+
+###
+
+GET localhost:3000/carros
+
+###
+
+GET localhost:3000/carros/BBB6666
